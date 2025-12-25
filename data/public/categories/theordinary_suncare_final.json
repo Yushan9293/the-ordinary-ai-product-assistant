@@ -1,0 +1,51 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "UV Filters SPF 45 Serum",
+    "url": "https://theordinary.com/fr-fr/filtre-uv-spf-45-serum-100423.html",
+    "category": "suncare",
+    "step": "protect",
+    "size_ml": 30,
+    "price_eur_original": 15.8,
+    "concerns": [
+      "UV protection",
+      "premature aging",
+      "uneven skin tone",
+      "photoaging prevention"
+    ],
+    "skin_types": [
+      "all skin types",
+      "sensitive skin"
+    ],
+    "texture": "lightweight serum",
+    "key_ingredients": [
+      "Broad Spectrum UV Filters",
+      "Antioxidants"
+    ],
+    "benefits": [
+      "Provides SPF 45 broad spectrum UVA/UVB protection",
+      "Helps prevent photoaging and dark spots",
+      "Lightweight serum texture that layers well with skincare",
+      "Non-greasy finish suitable for daily use"
+    ],
+    "how_to_use": "Apply to face and neck as the final step of the morning skincare routine. Use 15 minutes before sun exposure. Reapply as needed.",
+    "conflicts": [],
+    "warnings": [
+      "For external use only",
+      "Avoid contact with eyes",
+      "Reapply after sweating or swimming"
+    ],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 3.6,
+    "review_count": 202,
+    "faqs": []
+  }
+]

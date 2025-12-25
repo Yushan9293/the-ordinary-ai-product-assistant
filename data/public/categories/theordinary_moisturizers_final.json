@@ -1,0 +1,142 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "Natural Moisturizing Factors + HA",
+    "url": "https://theordinary.com/fr-fr/natural-moisturizing-factors-ha-100414.html",
+    "category": "moisturizer",
+    "step": "seal",
+    "size_ml": 100,
+    "price_eur_original": 15.8,
+    "concerns": [
+      "dryness",
+      "dehydration",
+      "barrier repair"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin",
+      "sensitive skin"
+    ],
+    "texture": "cream",
+    "key_ingredients": [
+      "Hyaluronic Acid",
+      "Amino Acids",
+      "Dermal Lipids",
+      "Triglycerides",
+      "Urea"
+    ],
+    "benefits": [
+      "supports skin moisture barrier",
+      "provides long-lasting hydration",
+      "ideal to seal in benefits of serums"
+    ],
+    "how_to_use": "Apply after serums as needed for effective surface hydration.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "6.3–6.8",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.3,
+    "review_count": 1729,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Natural Moisturizing Factors + PhytoCeramides",
+    "url": "https://theordinary.com/fr-fr/natural-moisturizing-factors-phytoceramides-100524.html",
+    "category": "moisturizer",
+    "step": "seal",
+    "size_ml": 100,
+    "price_eur_original": 23.4,
+    "concerns": [
+      "dryness",
+      "dehydration",
+      "barrier repair",
+      "loss of firmness"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin",
+      "mature skin"
+    ],
+    "texture": "cream",
+    "key_ingredients": [
+      "PhytoCeramides",
+      "Amino Acids",
+      "Glycerin",
+      "Urea",
+      "Squalane"
+    ],
+    "benefits": [
+      "intensely nourishes skin",
+      "supports ceramide barrier repair",
+      "improves plumpness and smoothness"
+    ],
+    "how_to_use": "Apply after serums as needed for deeper nourishment and barrier support.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "5.8–6.5",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.3,
+    "review_count": 1118,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Natural Moisturizing Factors + Beta Glucan",
+    "url": "https://theordinary.com/fr-fr/natural-moisturizing-factors-beta-glucan-100538.html",
+    "category": "moisturizer",
+    "step": "seal",
+    "size_ml": 100,
+    "price_eur_original": 17.2,
+    "concerns": [
+      "dehydration",
+      "sensitivity",
+      "barrier repair"
+    ],
+    "skin_types": [
+      "all skin types",
+      "sensitive skin"
+    ],
+    "texture": "gel",
+    "key_ingredients": [
+      "Beta Glucan",
+      "Amino Acids",
+      "Ceramides",
+      "Urea"
+    ],
+    "benefits": [
+      "cools and refreshes skin",
+      "strengthens skin barrier",
+      "provides deep hydration"
+    ],
+    "how_to_use": "Apply after serums as needed. Ideal for sensitive or dehydrated skin types.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "5.5–6.5",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.2,
+    "review_count": 851,
+    "faqs": []
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "Niacinamide 10% + Zinc 1%",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "oil control",
+      "signs of congestion",
+      "visible shine"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "serum",
+    "key_ingredients": [
+      "niacinamide 10%",
+      "zinc 1%"
+    ],
+    "benefits": [
+      "oil control",
+      "brightens",
+      "smooths"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.4,
+    "review_count": 2533,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Multi-Antioxidant Radiance Serum",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "dullness",
+      "antioxidant support"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "serum",
+    "key_ingredients": [],
+    "benefits": [
+      "brightens",
+      "protects skin"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.5,
+    "review_count": 170,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Hyaluronic Acid 2% + B5 (with Ceramides)",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "dryness",
+      "dehydration"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "serum",
+    "key_ingredients": [
+      "hyaluronic acid",
+      "ceramides"
+    ],
+    "benefits": [
+      "plumps",
+      "smooths"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.4,
+    "review_count": 1678,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "GF 15% Solution",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "solution",
+    "key_ingredients": [],
+    "benefits": [
+      "promotes visible regeneration"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.4,
+    "review_count": 485,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Multi-Peptide + Copper Peptides 1% Serum",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "signs of aging"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "serum",
+    "key_ingredients": [
+      "copper peptides"
+    ],
+    "benefits": [
+      "for advanced signs of aging"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.5,
+    "review_count": 1044,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "UV Filters SPF 45 Serum",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "UV protection"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "serum",
+    "key_ingredients": [
+      "SPF"
+    ],
+    "benefits": [
+      "broad spectrum protection"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 3.6,
+    "review_count": 202,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Volufiline 92% + Pal-Isoleucine 1%",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "serum",
+    "key_ingredients": [
+      "Volufiline 92%",
+      "Pal-Isoleucine 1%"
+    ],
+    "benefits": [
+      "targets visible volume loss"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 3.4,
+    "review_count": 62,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Multi-Peptide Lash and Brow Serum",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "hair"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "serum",
+    "key_ingredients": [
+      "peptides"
+    ],
+    "benefits": [
+      "Volumizing lash & brow serum"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.1,
+    "review_count": 4057,
+    "faqs": [],
+    "size_ml": 5,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Multi-Peptide + HA Serum",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "signs of aging"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "serum",
+    "key_ingredients": [
+      "peptides",
+      "hyaluronic acid"
+    ],
+    "benefits": [
+      "for early signs of aging"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.4,
+    "review_count": 1229,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Salicylic Acid 0.5% Body Serum",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "signs of congestion"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "serum",
+    "key_ingredients": [
+      "salicylic acid"
+    ],
+    "benefits": [
+      "exfoliates",
+      "Clearer-Looking Skin"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.7,
+    "review_count": 209,
+    "faqs": [],
+    "size_ml": 240,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Retinal 0.2% Emulsion",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "uneven skin tone"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "emulsion",
+    "key_ingredients": [
+      "retinal"
+    ],
+    "benefits": [
+      "firms",
+      "reduces look of dark spots"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.3,
+    "review_count": 1159,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur_original": null
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Argireline Solution 10%",
+    "url": null,
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "signs of aging"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "solution",
+    "key_ingredients": [
+      "argireline"
+    ],
+    "benefits": [
+      "targets deep-set lines"
+    ],
+    "how_to_use": null,
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.3,
+    "review_count": 664,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur_original": null
+  }
+]

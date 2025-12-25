@@ -1,0 +1,142 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "Glucoside Foaming Cleanser",
+    "url": "https://theordinary.com/fr-fr/glucoside-foaming-face-cleanser-100616.html",
+    "category": "cleanser",
+    "step": "prep",
+    "size_ml": 150,
+    "price_eur": 13.4,
+    "concerns": [
+      "gentle daily cleansing",
+      "oiliness",
+      "dullness",
+      "uneven skin texture",
+      "SPF and impurity removal"
+    ],
+    "skin_types": [
+      "all skin types",
+      "including sensitive"
+    ],
+    "texture": "water-based gel, foaming cleanser",
+    "key_ingredients": [
+      "Decyl Glucoside",
+      "Coco-Glucoside"
+    ],
+    "benefits": [
+      "removes dirt and environmental impurities",
+      "helps maintain skin moisture barrier",
+      "improves look of skin clarity",
+      "supports smoother texture and radiance over time"
+    ],
+    "how_to_use": "Use as the first step (Prep) in AM and PM. Apply to wet face, massage gently, then rinse.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "5.0-6.0",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "vegan",
+      "gluten-free",
+      "cruelty-free",
+      "fragrance-free"
+    ],
+    "rating": 4.4,
+    "review_count": 905,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Squalane Cleanser",
+    "url": "https://theordinary.com/fr-fr/nettoyant-au-squalane-pour-le-visage-100446.html",
+    "category": "cleanser",
+    "step": "prep",
+    "size_ml": 150,
+    "price_eur": 10.9,
+    "concerns": [
+      "dryness",
+      "dehydration",
+      "sensitivity",
+      "makeup removal",
+      "compromised skin barrier"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin",
+      "sensitive skin"
+    ],
+    "texture": "balm-to-oil cleanser",
+    "key_ingredients": [
+      "Squalane",
+      "Lipophilic esters"
+    ],
+    "benefits": [
+      "dissolves makeup, SPF and impurities",
+      "supports the skin’s moisture barrier",
+      "leaves skin soft, smooth and hydrated",
+      "non-comedogenic and soap-free"
+    ],
+    "how_to_use": "Apply a small amount to dry hands, massage onto dry face until balm turns to oil, then rinse with warm water. Can be used as first cleanse or only cleanse, AM and PM.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "vegan",
+      "gluten-free",
+      "cruelty-free",
+      "non-comedogenic",
+      "soap-free",
+      "fragrance-free"
+    ],
+    "rating": 4.4,
+    "review_count": 1417,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Glycolipid Cream Cleanser",
+    "url": "https://theordinary.com/fr-fr/glycolipid-cream-face-cleanser-100615.html",
+    "category": "cleanser",
+    "step": "prep",
+    "size_ml": 150,
+    "price_eur": 13.4,
+    "concerns": [
+      "gentle cleansing",
+      "makeup removal",
+      "dryness",
+      "sensitivity",
+      "skin barrier support"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "cream cleanser (non-foaming)",
+    "key_ingredients": [
+      "Plant-derived glycolipids"
+    ],
+    "benefits": [
+      "removes impurities and most makeup (foundation, eyeliner, mascara)",
+      "respects skin barrier to maintain hydration",
+      "non-stripping, supports skin’s natural pH"
+    ],
+    "how_to_use": "Apply to dry or damp face, massage gently, then rinse with warm water. Use as daily AM/PM cleanser; for heavy waterproof makeup, can be paired with Squalane Cleanser as first step.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "vegan",
+      "gluten-free",
+      "cruelty-free",
+      "fragrance-free"
+    ],
+    "rating": 4.3,
+    "review_count": 810,
+    "faqs": []
+  }
+]

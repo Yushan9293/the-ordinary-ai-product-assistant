@@ -1,0 +1,98 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "The Eye, Lash & Brow Collection",
+    "url": "https://theordinary.com/fr-fr/la-collection-yeux-cils-et-sourcils-200129.html",
+    "category": "lash_brow_set",
+    "step": "treat",
+    "size_ml": 20,
+    "price_eur_original": 42.9,
+    "concerns": [
+      "lash & brow density",
+      "dark circles",
+      "puffiness",
+      "signs of aging around eyes"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "set (eye serum + lash & brow serum)",
+    "key_ingredients": [
+      "multi-peptide complex",
+      "niacinamide",
+      "fraxinus excelsior bark extract",
+      "EGCG",
+      "hyaluronic acid"
+    ],
+    "benefits": [
+      "targets signs of aging around the eyes",
+      "helps reduce dark circles and puffiness",
+      "supports thicker, fuller-looking lashes and brows",
+      "convenient duo for eye and lash/brow care"
+    ],
+    "how_to_use": "Use Multi-Peptide Eye Serum around the eye contour in the AM and PM. Apply Multi-Peptide Lash & Brow Serum along the lash line and onto brows twice daily on clean, dry skin.",
+    "conflicts": [],
+    "warnings": [
+      "Patch test prior to use is advised."
+    ],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "vegan",
+      "cruelty-free",
+      "gluten-free"
+    ],
+    "rating": 4.1,
+    "review_count": 5475,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Multi-Peptide Lash and Brow Serum",
+    "url": "https://theordinary.com/fr-fr/s%C3%A9rum-multi-peptides-pour-les-cils-et-les-sourcils-100111.html",
+    "category": "lash_brow_serum",
+    "step": "treat",
+    "size_ml": 5,
+    "price_eur_original": 16.1,
+    "concerns": [
+      "thin lashes",
+      "thin brows",
+      "weak lash & brow density"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "lightweight water-based serum",
+    "key_ingredients": [
+      "multi-peptide complex",
+      "Camellia Sinensis Leaf Extract",
+      "Larix Europaea Wood Extract",
+      "Zinc Chloride"
+    ],
+    "benefits": [
+      "supports thicker, fuller and healthier-looking lashes",
+      "improves brow density and fullness",
+      "lightweight, non-greasy formula",
+      "prostaglandin-free lash & brow serum"
+    ],
+    "how_to_use": "On clean, dry skin, apply a thin layer along the lash line and onto brows in the morning and evening. Allow to absorb before applying makeup or other products.",
+    "conflicts": [],
+    "warnings": [
+      "Avoid direct contact with eyes."
+    ],
+    "ph": "7.30-7.40",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "vegan",
+      "cruelty-free",
+      "gluten-free"
+    ],
+    "rating": 4.1,
+    "review_count": 4057,
+    "faqs": []
+  }
+]

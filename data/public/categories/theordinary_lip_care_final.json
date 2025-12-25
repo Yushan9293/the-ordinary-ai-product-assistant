@@ -1,0 +1,91 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "PHA 5% Exfoliating Lip Serum",
+    "url": "https://theordinary.com/fr-fr/serum-exfoliant-pour-les-levres-pha-5-103212.html",
+    "category": "lip_serum",
+    "step": "treat",
+    "size_ml": 15,
+    "price_eur_original": 11.8,
+    "concerns": [
+      "dry lips",
+      "rough texture",
+      "flakiness",
+      "dull lips"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "lightweight serum",
+    "key_ingredients": [
+      "PHA 5%"
+    ],
+    "benefits": [
+      "gently exfoliates dead skin on lips",
+      "smooths lip texture",
+      "improves softness",
+      "enhances lip radiance"
+    ],
+    "how_to_use": "Apply a thin layer to clean, dry lips in the AM and PM. Do not rinse. Can be layered under lip balm.",
+    "conflicts": [],
+    "warnings": [
+      "Avoid broken or severely cracked lips."
+    ],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.6,
+    "review_count": 134,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Squalane + Amino Acids Lip Balm",
+    "url": "https://theordinary.com/fr-fr/baume-a-levres-au-squalane-et-aux-amino-acides-200121.html",
+    "category": "lip_balm",
+    "step": "seal",
+    "size_ml": 15,
+    "price_eur_original": 9.8,
+    "concerns": [
+      "dry lips",
+      "chapped lips",
+      "barrier repair"
+    ],
+    "skin_types": [
+      "all skin types",
+      "sensitive"
+    ],
+    "texture": "nourishing lip balm",
+    "key_ingredients": [
+      "Squalane",
+      "Amino Acids"
+    ],
+    "benefits": [
+      "deeply hydrates and softens lips",
+      "supports lip moisture barrier",
+      "reduces dryness & flaking",
+      "leaves lips smoother and more supple"
+    ],
+    "how_to_use": "Apply as needed throughout the day. Can be used over lip serum for enhanced hydration.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.3,
+    "review_count": 955,
+    "faqs": []
+  }
+]

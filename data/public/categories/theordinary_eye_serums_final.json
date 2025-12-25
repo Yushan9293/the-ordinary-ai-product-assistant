@@ -1,0 +1,178 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "Multi-Peptide Eye Serum",
+    "url": "https://theordinary.com/fr-fr/multi-peptide-eye-serum-100438.html",
+    "category": "eye_serum",
+    "step": "treat",
+    "size_ml": 15,
+    "price_eur_original": 27.6,
+    "concerns": [
+      "dark circles",
+      "puffiness",
+      "fine lines",
+      "signs of aging"
+    ],
+    "skin_types": [
+      "all skin types",
+      "including mature skin"
+    ],
+    "texture": "lightweight serum",
+    "key_ingredients": [
+      "Matrixyl 3000",
+      "Matrixyl Synthe'6",
+      "SYN-AKE",
+      "ARGIRELINE peptide",
+      "EYESERYL peptide",
+      "Niacinamide",
+      "Ash bark extract"
+    ],
+    "benefits": [
+      "Targets signs of aging around the eyes",
+      "Reduces the appearance of dark circles",
+      "Reduces puffiness",
+      "Improves smoothness of the eye contour"
+    ],
+    "how_to_use": "Apply a small amount to the eye contour in the AM and PM.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.1,
+    "review_count": 1418,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Argireline Solution 10%",
+    "url": "https://theordinary.com/fr-fr/argireline-solution-10pct-serum-100421.html",
+    "category": "eye_serum",
+    "step": "treat",
+    "size_ml": 30,
+    "price_eur_original": 13.9,
+    "concerns": [
+      "expression lines",
+      "forehead lines",
+      "crow's feet"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "lightweight serum",
+    "key_ingredients": [
+      "Argireline peptide"
+    ],
+    "benefits": [
+      "Targets visible dynamic lines",
+      "Softens expression lines especially around eyes and forehead",
+      "Helps reduce depth of wrinkles over time"
+    ],
+    "how_to_use": "Apply a few drops on the forehead and around the eyes twice daily before heavier treatments.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "6.0-7.0",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.3,
+    "review_count": 664,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Caffeine Solution 5% + EGCG",
+    "url": "https://theordinary.com/fr-fr/caffeine-solution-5pct-egcg-serum-100424.html",
+    "category": "eye_serum",
+    "step": "treat",
+    "size_ml": 30,
+    "price_eur_original": 14.2,
+    "concerns": [
+      "dark circles",
+      "puffiness"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "lightweight serum",
+    "key_ingredients": [
+      "Caffeine",
+      "EGCG (Epigallocatechin Gallatyl Glucoside)"
+    ],
+    "benefits": [
+      "Reduces appearance of eye contour pigmentation",
+      "Visibly reduces puffiness",
+      "Brightens and refreshes the eye area"
+    ],
+    "how_to_use": "Massage a small amount into the eye contour AM and PM.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "4.5-5.5",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.2,
+    "review_count": 1656,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Multi-Peptide Lash and Brow Serum",
+    "url": "https://theordinary.com/fr-fr/multi-peptide-lash-and-brow-serum-102355.html",
+    "category": "eye_serum",
+    "step": "treat",
+    "size_ml": 5,
+    "price_eur_original": 16.5,
+    "concerns": [
+      "thin lashes",
+      "thin brows",
+      "weak lash growth"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "lightweight serum",
+    "key_ingredients": [
+      "Myristoyl Pentapeptide-17",
+      "Biotinoyl Tripeptide-1",
+      "Acetyl Tetrapeptide-3",
+      "Trifolium Pratense Flower Extract",
+      "Larix Europaea Wood Extract",
+      "Zinc Chloride",
+      "Camellia Sinensis Leaf Extract"
+    ],
+    "benefits": [
+      "Supports thicker, fuller, and healthier lashes",
+      "Improves brow fullness",
+      "Strengthens hair at the root"
+    ],
+    "how_to_use": "After cleansing and drying the application area, apply a thin layer along the lash line and eyebrows in the morning and evening.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "7.30-7.70",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free"
+    ],
+    "rating": 4.1,
+    "review_count": 4057,
+    "faqs": []
+  }
+]

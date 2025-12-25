@@ -1,0 +1,159 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "AHA 30% + BHA 2% Peeling Solution",
+    "url": "https://theordinary.com/fr-fr/aha-30-bha-2-peeling-solution-100436.html",
+    "category": "mask",
+    "step": "treat",
+    "size_ml": 30,
+    "price_eur_original": 12.5,
+    "concerns": [
+      "uneven skin tone",
+      "dullness",
+      "texture irregularities",
+      "congestion"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination"
+    ],
+    "texture": "water-based exfoliating solution",
+    "key_ingredients": [
+      "AHA 30%",
+      "BHA 2%",
+      "glycolic acid",
+      "lactic acid",
+      "salicylic acid",
+      "Tasmanian pepperberry",
+      "hyaluronic acid",
+      "vitamin B5",
+      "black carrot"
+    ],
+    "benefits": [
+      "deep exfoliation",
+      "brightens skin",
+      "improves texture",
+      "reduces pore congestion"
+    ],
+    "how_to_use": "Use ideally in the PM. Apply a thin layer across clean, dry skin. Leave for max 10 minutes. Rinse with lukewarm water.",
+    "conflicts": [
+      "Do not use with other direct acids",
+      "Do not use on sensitive or compromised skin"
+    ],
+    "warnings": [
+      "Increases sun sensitivity. Use SPF daily."
+    ],
+    "ph": "3.5-3.7",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.6,
+    "review_count": 776,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Sulfur 10% Powder-to-Cream Mask",
+    "url": "https://theordinary.com/fr-fr/sulfur-10pct-powder-to-cream-mask-100480.html",
+    "category": "mask",
+    "step": "treat",
+    "size_ml": 30,
+    "price_eur_original": 12.8,
+    "concerns": [
+      "blemishes",
+      "oiliness",
+      "congestion",
+      "redness"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "texture": "powder-to-cream mask",
+    "key_ingredients": [
+      "Sulfur 10%",
+      "Kaolin clay",
+      "Charcoal powder"
+    ],
+    "benefits": [
+      "reduces blemishes",
+      "controls oil",
+      "decongests pores",
+      "reduces redness"
+    ],
+    "how_to_use": "Apply to clean, dry skin focusing on blemish-prone areas. Leave for 10 minutes. Rinse thoroughly.",
+    "conflicts": [],
+    "warnings": [
+      "Avoid contact with eyes"
+    ],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.5,
+    "review_count": 321,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Salicylic Acid 2% Masque",
+    "url": "https://theordinary.com/fr-fr/salicylic-acid-2pct-masque-100429.html",
+    "category": "mask",
+    "step": "treat",
+    "size_ml": 50,
+    "price_eur_original": 12.5,
+    "concerns": [
+      "congestion",
+      "dullness",
+      "texture irregularities",
+      "blemishes"
+    ],
+    "skin_types": [
+      "oily",
+      "combination",
+      "acne-prone"
+    ],
+    "texture": "clay mask",
+    "key_ingredients": [
+      "Salicylic Acid 2%",
+      "Charcoal",
+      "Amazonian clay"
+    ],
+    "benefits": [
+      "clears congestion",
+      "smooths skin",
+      "improves radiance",
+      "reduces blemishes"
+    ],
+    "how_to_use": "Use 1–2 times weekly on clean, dry skin. Apply evenly, avoiding eye area. Leave for max 10 minutes. Rinse well.",
+    "conflicts": [],
+    "warnings": [
+      "Avoid eye contour",
+      "Do not use on broken skin"
+    ],
+    "ph": "3.5–4.0",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.4,
+    "review_count": 241,
+    "faqs": []
+  }
+]

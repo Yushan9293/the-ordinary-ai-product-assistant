@@ -1,0 +1,136 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "Salicylic Acid 0.5% Body Serum",
+    "url": "https://theordinary.com/fr-fr/s%C3%A9rum-corps-a-lacide-salicylique-05-100636.html",
+    "category": "body_care",
+    "step": "treatment",
+    "size_ml": 240,
+    "price_eur_original": 17.4,
+    "concerns": [
+      "body acne",
+      "uneven skin texture",
+      "rough skin",
+      "clogged pores"
+    ],
+    "skin_types": [
+      "all skin types",
+      "including oily or acne‑prone skin"
+    ],
+    "texture": "light serum / liquid",
+    "key_ingredients": [
+      "Salicylic Acid 0.5%"
+    ],
+    "benefits": [
+      "helps exfoliate dead skin cells",
+      "reduces body breakouts",
+      "smooths skin texture",
+      "unclogs pores and refines skin surface"
+    ],
+    "how_to_use": "Apply to clean, dry body skin. Use on areas prone to bumps or uneven texture. Follow with moisturiser.",
+    "conflicts": [],
+    "warnings": [
+      "Avoid broken skin",
+      "Do not combine with strong exfoliants or retinoids without professional advice"
+    ],
+    "ph": null,
+    "claims_free_from": [
+      "oil-free",
+      "silicone-free",
+      "vegan",
+      "gluten-free",
+      "cruelty-free"
+    ],
+    "rating": null,
+    "review_count": null,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Niacinamide 5% Face & Body Emulsion",
+    "url": "https://theordinary.com/fr-fr/emulsion-visage-et-corps-a-la-niacinamide-5-100661.html",
+    "category": "body_care",
+    "step": "moisturizer",
+    "size_ml": 100,
+    "price_eur_original": 11.98,
+    "concerns": [
+      "uneven skin tone",
+      "dark spots",
+      "dullness",
+      "uneven texture"
+    ],
+    "skin_types": [
+      "all skin types",
+      "including sensitive skin"
+    ],
+    "texture": "light emulsion / fluid lotion",
+    "key_ingredients": [
+      "Niacinamide 5%"
+    ],
+    "benefits": [
+      "helps even skin tone on face and body",
+      "reduces appearance of dark spots",
+      "improves skin texture",
+      "hydrates and supports skin barrier"
+    ],
+    "how_to_use": "Apply to face and body morning and evening after cleansing. Use on clean skin.",
+    "conflicts": [],
+    "warnings": [
+      "Perform patch test on sensitive skin before regular use"
+    ],
+    "ph": null,
+    "claims_free_from": [
+      "oil-free",
+      "silicone-free",
+      "vegan",
+      "gluten-free",
+      "cruelty-free"
+    ],
+    "rating": null,
+    "review_count": null,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Natural Moisturizing Factors + Inulin Body Lotion",
+    "url": "https://theordinary.com/fr-fr/lotion-pour-le-corps-facteurs-naturels-dhydratation-inuline-100668.html",
+    "category": "body_care",
+    "step": "moisturizer",
+    "size_ml": 240,
+    "price_eur_original": 14.7,
+    "concerns": [
+      "dryness",
+      "dehydration",
+      "skin barrier support",
+      "sensitive skin needing hydration"
+    ],
+    "skin_types": [
+      "all skin types"
+    ],
+    "texture": "body lotion / light lotion",
+    "key_ingredients": [
+      "Natural Moisturizing Factors",
+      "Inulin"
+    ],
+    "benefits": [
+      "provides instant and long‑lasting hydration",
+      "helps maintain skin’s moisture barrier",
+      "softens skin and improves texture",
+      "suitable for daily hydration after shower"
+    ],
+    "how_to_use": "Apply on body as needed, ideally on damp skin after shower to lock in moisture.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "5.0-6.0",
+    "claims_free_from": [
+      "oil-free",
+      "silicone-free",
+      "vegan",
+      "gluten-free",
+      "cruelty-free"
+    ],
+    "rating": null,
+    "review_count": null,
+    "faqs": []
+  }
+]

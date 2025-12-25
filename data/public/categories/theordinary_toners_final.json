@@ -1,0 +1,153 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "Multi-Active Delivery Essence",
+    "url": "https://theordinary.com/fr-fr/multi-active-delivery-essence-100706.html",
+    "category": "toner",
+    "step": "prep",
+    "size_ml": 100,
+    "price_eur_original": 13.5,
+    "concerns": [
+      "dehydration",
+      "dullness",
+      "barrier support"
+    ],
+    "skin_types": [
+      "all skin types",
+      "sensitive skin"
+    ],
+    "texture": "essence-like liquid",
+    "key_ingredients": [
+      "Glycerin 10%",
+      "Propanediol 5%",
+      "Sodium Caproyl Prolinate"
+    ],
+    "benefits": [
+      "boosts skin hydration",
+      "prepares skin for better absorption of subsequent skincare",
+      "supports skin barrier for smoother, more radiant skin"
+    ],
+    "how_to_use": "After cleansing, apply a few drops to the face and neck using your hands. Gently press into the skin. Use morning and evening before serums and moisturizers.",
+    "conflicts": [
+      "Avoid combining in the same routine with direct acids",
+      "Avoid combining with retinoids in the same routine"
+    ],
+    "warnings": [
+      "If irritation occurs, rinse off and discontinue use."
+    ],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.7,
+    "review_count": 213,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Saccharomyces Ferment 30% Milky Toner",
+    "url": "https://theordinary.com/fr-fr/tonique-lact%C3%A9-aux-ferments-de-saccharomyces-30-100647.html",
+    "category": "toner",
+    "step": "prep",
+    "size_ml": 100,
+    "price_eur_original": 16.8,
+    "concerns": [
+      "uneven skin tone",
+      "textural irregularities",
+      "dullness",
+      "dehydration",
+      "sensitivity"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin",
+      "sensitive skin"
+    ],
+    "texture": "milky toner",
+    "key_ingredients": [
+      "Saccharomyces Ferment",
+      "Yeast Extract",
+      "Squalane"
+    ],
+    "benefits": [
+      "gently exfoliates to smooth skin texture",
+      "helps brighten and even skin tone",
+      "provides lasting surface hydration",
+      "supports and strengthens the skin barrier"
+    ],
+    "how_to_use": "Use morning and evening after cleansing. Apply to face and neck using hands or a cotton pad. Do not rinse. Avoid the eye area.",
+    "conflicts": [],
+    "warnings": [
+      "If irritation occurs, reduce frequency or discontinue use."
+    ],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.5,
+    "review_count": 1177,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Glycolic Acid 7% Exfoliating Toner",
+    "url": "https://theordinary.com/fr-fr/tonique-exfoliant-%C3%A0-l-acide-glycolique-7-100418.html",
+    "category": "toner",
+    "step": "prep",
+    "size_ml": 240,
+    "price_eur_original": 13.0,
+    "concerns": [
+      "uneven skin tone",
+      "textural irregularities",
+      "dullness"
+    ],
+    "skin_types": [
+      "normal",
+      "oily",
+      "combination"
+    ],
+    "texture": "water-based exfoliating toner",
+    "key_ingredients": [
+      "Glycolic Acid 7%",
+      "Aloe Vera",
+      "Tasmanian Pepperberry"
+    ],
+    "benefits": [
+      "exfoliates the skin’s surface for smoother texture",
+      "helps to even the look of skin tone",
+      "improves radiance with continued use"
+    ],
+    "how_to_use": "Use ideally in the PM, no more frequently than once per day. After cleansing, saturate a cotton pad and sweep across the face and neck. Do not rinse. Avoid the eye contour.",
+    "conflicts": [
+      "Do not use with other direct acids in the same routine",
+      "Avoid using with retinoids in the same routine",
+      "Avoid using with peptides like Argireline or Buffet in the same routine"
+    ],
+    "warnings": [
+      "This product contains an alpha hydroxy acid (AHA) that may increase your skin’s sensitivity to the sun.",
+      "Use sunscreen and limit sun exposure while using this product and for a week afterwards."
+    ],
+    "ph": "3.5–3.7",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.5,
+    "review_count": 1144,
+    "faqs": []
+  }
+]

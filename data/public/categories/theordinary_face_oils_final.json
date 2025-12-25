@@ -1,0 +1,216 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "100% Fermented Rose Hip Seed Oil",
+    "url": "https://theordinary.com/fr-fr/100-fermented-rose-hip-seed-oil-100634.html",
+    "category": "face_oil",
+    "step": "treat",
+    "size_ml": 30,
+    "price_eur_original": 15.8,
+    "concerns": [
+      "signs of aging",
+      "dullness",
+      "dryness",
+      "uneven tone"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin",
+      "mature skin"
+    ],
+    "texture": "rich oil",
+    "key_ingredients": [
+      "Fermented Rose Hip Seed Oil"
+    ],
+    "benefits": [
+      "soothes skin",
+      "improves firmness",
+      "enhances radiance",
+      "supports skin barrier"
+    ],
+    "how_to_use": "Apply a few drops to the face once daily, ideally at bedtime after water-based treatments.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "cruelty-free",
+      "gluten-free",
+      "silicone-free",
+      "vegan"
+    ],
+    "rating": 4.6,
+    "review_count": 122,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "100% Organic Cold-Pressed Rose Hip Seed Oil",
+    "url": "https://theordinary.com/fr-fr/100-organic-cold-pressed-rose-hip-seed-oil-100434.html",
+    "category": "face_oil",
+    "step": "treat",
+    "size_ml": 30,
+    "price_eur_original": 11.8,
+    "concerns": [
+      "signs of aging",
+      "dryness",
+      "uneven tone",
+      "dullness"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin"
+    ],
+    "texture": "rich oil",
+    "key_ingredients": [
+      "Organic Cold-Pressed Rose Hip Seed Oil"
+    ],
+    "benefits": [
+      "deep hydration",
+      "brightens skin",
+      "supports anti-aging",
+      "improves elasticity"
+    ],
+    "how_to_use": "Apply a few drops to the face once daily, ideally at bedtime after water-based treatments.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "cruelty-free",
+      "gluten-free",
+      "silicone-free",
+      "vegan"
+    ],
+    "rating": 4.4,
+    "review_count": 418,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "100% Organic Cold-Pressed Moroccan Argan Oil",
+    "url": "https://theordinary.com/fr-fr/100-organic-cold-pressed-moroccan-argan-oil-100437.html",
+    "category": "face_oil",
+    "step": "treat",
+    "size_ml": 30,
+    "price_eur_original": 8.9,
+    "concerns": [
+      "dryness",
+      "dullness",
+      "hair dryness"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin"
+    ],
+    "texture": "light oil",
+    "key_ingredients": [
+      "Organic Moroccan Argan Oil"
+    ],
+    "benefits": [
+      "reduces skin dryness",
+      "softens hair",
+      "improves smoothness",
+      "restores radiance"
+    ],
+    "how_to_use": "Apply a few drops to the face once daily or use on damp hair as needed.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "cruelty-free",
+      "gluten-free",
+      "silicone-free",
+      "vegan"
+    ],
+    "rating": 4.0,
+    "review_count": 176,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "100% Cold-Pressed Virgin Marula Oil",
+    "url": "https://theordinary.com/fr-fr/100-cold-pressed-virgin-marula-oil-100436.html",
+    "category": "face_oil",
+    "step": "treat",
+    "size_ml": 30,
+    "price_eur_original": 19.8,
+    "concerns": [
+      "dryness",
+      "dullness",
+      "loss of radiance"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin"
+    ],
+    "texture": "luxurious oil",
+    "key_ingredients": [
+      "Virgin Marula Oil"
+    ],
+    "benefits": [
+      "nourishes deeply",
+      "enhances radiance",
+      "supports skin softness",
+      "improves texture"
+    ],
+    "how_to_use": "Apply a few drops to the face once daily after lighter serums.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "cruelty-free",
+      "gluten-free",
+      "silicone-free",
+      "vegan"
+    ],
+    "rating": 4.6,
+    "review_count": 147,
+    "faqs": []
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "100% Organic Virgin Chia Seed Oil",
+    "url": "https://theordinary.com/fr-fr/100-organic-virgin-chia-seed-oil-100438.html",
+    "category": "face_oil",
+    "step": "treat",
+    "size_ml": 30,
+    "price_eur_original": 9.8,
+    "concerns": [
+      "dryness",
+      "sensitivity",
+      "hair dryness"
+    ],
+    "skin_types": [
+      "all skin types",
+      "dry skin",
+      "sensitive skin"
+    ],
+    "texture": "light oil",
+    "key_ingredients": [
+      "Organic Virgin Chia Seed Oil"
+    ],
+    "benefits": [
+      "hydrating",
+      "strengthens skin barrier",
+      "can be used for skin and hair",
+      "reduces flakiness"
+    ],
+    "how_to_use": "Apply a few drops to the face or hair once daily as needed.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": null,
+    "claims_free_from": [
+      "alcohol-free",
+      "cruelty-free",
+      "gluten-free",
+      "silicone-free",
+      "vegan"
+    ],
+    "rating": 4.4,
+    "review_count": 44,
+    "faqs": []
+  }
+]

@@ -1,0 +1,420 @@
+[
+  {
+    "brand": "The Ordinary",
+    "name": "Glycolic Acid 7% Exfoliating Toner",
+    "url": "https://theordinary.com/en-fr/glycolic-acid-7-exfoliating-toner-toner-100436.html",
+    "category": "toner",
+    "step": "prep",
+    "concerns": [
+      "uneven skin tone",
+      "textural irregularities",
+      "dullness"
+    ],
+    "skin_types": [],
+    "texture": "water-based exfoliating toner",
+    "key_ingredients": [
+      "glycolic acid 7%",
+      "Tasmanian pepperberry"
+    ],
+    "benefits": [
+      "evens texture",
+      "evens tone",
+      "improves radiance"
+    ],
+    "how_to_use": "Use ideally in the PM, no more frequently than once per day. After cleaning, saturate a cotton pad with the formula and sweep across face and neck. Avoid the eye contour and contact with eyes. Do not rinse off. Continue with additional skin treatments as needed.",
+    "conflicts": [
+      "do not use with other direct acids in the same routine"
+    ],
+    "warnings": [
+      "this AHA increases sun sensitivity, use sunscreen and limit sun exposure during use and for one week afterwards"
+    ],
+    "ph": "3.5-3.7",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.5,
+    "review_count": 1144,
+    "faqs": [],
+    "size_ml": 240,
+    "price_eur": 9.3
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Saccharomyces Ferment 30% Milky Toner",
+    "url": "https://theordinary.com/en-fr/saccharomyces-ferment-30-milky-toner-toner-102989.html",
+    "category": "toner",
+    "step": "prep",
+    "concerns": [
+      "uneven skin tone",
+      "textural irregularities",
+      "dullness",
+      "dehydration"
+    ],
+    "skin_types": [],
+    "texture": "milky toner",
+    "key_ingredients": [
+      "Saccharomyces Ferment"
+    ],
+    "benefits": [
+      "evens texture",
+      "evens tone",
+      "hydrates"
+    ],
+    "how_to_use": "Use after cleansing to help even skin texture and provide enhanced surface hydration. Dispense onto the palms of your hands or a cotton pad, and gently sweep across the face. It can be used daily as part of your skincare regimen. If irritation occurs, cease use and consult a physician. Use only as directed on unbroken skin. Patch testing prior to use is advised. Keep out of reach of children.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.5,
+    "review_count": 1177,
+    "faqs": [],
+    "size_ml": 100,
+    "price_eur": 16.8
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "AHA 30% + BHA 2% Peeling Solution",
+    "url": "https://theordinary.com/en-fr/aha-30-bha-2-peeling-solution-exfoliator-100001.html",
+    "category": "mask",
+    "step": "treat",
+    "concerns": [
+      "dullness",
+      "uneven texture",
+      "uneven tone"
+    ],
+    "skin_types": [],
+    "texture": "brightening facial exfoliator",
+    "key_ingredients": [
+      "glycolic acid",
+      "lactic acid",
+      "tartaric acid",
+      "citric acid",
+      "salicylic acid",
+      "Tasmanian pepperberry"
+    ],
+    "benefits": [
+      "exfoliates multiple layers of the skin",
+      "visibly brightens skin",
+      "helps clear congestion",
+      "smooths skin texture"
+    ],
+    "how_to_use": "Use ideally in the PM, no more frequently than twice per week. Clean face and wait for skin to dry. Apply evenly across face and neck using fingertips, avoiding the eye area. Leave on for no more than 10 minutes. Rinse thoroughly with lukewarm water. Avoid the eye contour and contact with eyes. This low-viscosity solution is intended to be used as a mask. Do not leave on for longer than 10 minutes.",
+    "conflicts": [
+      "do not use on sensitive, peeling or compromised skin"
+    ],
+    "warnings": [
+      "this AHA increases sun sensitivity, use sunscreen and limit sun exposure during use and for one week afterwards"
+    ],
+    "ph": "3.5-3.7",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.6,
+    "review_count": 776,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur": 10.8
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Lactic Acid 10% + HA",
+    "url": "https://theordinary.com/en-fr/lactic-acid-10-ha-exfoliator-100084.html",
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "uneven texture",
+      "dullness"
+    ],
+    "skin_types": [],
+    "texture": "serum",
+    "key_ingredients": [
+      "lactic acid",
+      "Tasmanian pepperberry"
+    ],
+    "benefits": [
+      "smooths skin texture",
+      "brightens skin",
+      "reduces inflammation"
+    ],
+    "how_to_use": "Apply once per day, ideally in the PM. Can be diluted with other treatments to reduce strength until skin develops tolerance. Avoid contact with eyes. If irritation persists, discontinue use and consult a physician. (Sunburn Alert: This product contains an alpha hydroxy acid (AHA) that may increase your skins sensitivity to the sun and particularly the possibility of sunburn. Use a sunscreen, wear protective clothing, and limit sun exposure while using this product and for a week afterwards.)",
+    "conflicts": [
+      "do not use on sensitive, peeling or compromised skin"
+    ],
+    "warnings": [
+      "this AHA increases sun sensitivity, use sunscreen and limit sun exposure during use and for one week afterwards"
+    ],
+    "ph": "3.6-3.8",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.5,
+    "review_count": 221,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur": 10.6
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "PHA 5% Exfoliating Lip Serum",
+    "url": "https://theordinary.com/en-fr/pha-5-exfoliating-lip-serum-lip-care-103212.html",
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "dry lips",
+      "rough lips",
+      "chapped lips"
+    ],
+    "skin_types": [
+      "all"
+    ],
+    "texture": "lip serum",
+    "key_ingredients": [
+      "PHA 5%"
+    ],
+    "benefits": [
+      "exfoliates lips",
+      "smooths lips",
+      "hydrates lips"
+    ],
+    "how_to_use": "Apply a thin layer to clean, dry lips in the AM and PM. Do not rinse off after application. Can be used before applying other lip products.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.6,
+    "review_count": 134,
+    "faqs": [],
+    "size_ml": 15,
+    "price_eur": 9.8
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Salicylic Acid 2% Solution",
+    "url": "https://theordinary.com/en-fr/salicylic-acid-2-solution-exfoliator-100092.html",
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "signs of congestion",
+      "textural irregularities"
+    ],
+    "skin_types": [],
+    "texture": "solution",
+    "key_ingredients": [
+      "salicylic acid"
+    ],
+    "benefits": [
+      "clears skin",
+      "evens texture"
+    ],
+    "how_to_use": "Use in the AM and PM. Apply a small dot directly on spots for visible improvement or apply a small amount over the face for general use.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "3.2-3.6",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 3.3,
+    "review_count": 513,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur": 7.5
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Azelaic Acid Suspension 10%",
+    "url": "https://theordinary.com/en-fr/azelaic-acid-suspension-10-brightening-serum-100438.html",
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "dullness",
+      "uneven tone",
+      "textural irregularities"
+    ],
+    "skin_types": [],
+    "texture": "cream",
+    "key_ingredients": [
+      "azelaic acid"
+    ],
+    "benefits": [
+      "smooths texture",
+      "brightens skin"
+    ],
+    "how_to_use": "Apply to the face in the AM and/or PM to improve visible brightness and even skin texture. Avoid contact with eyes and mouth.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "5.0-6.0",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.4,
+    "review_count": 942,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur": 13.5
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Salicylic Acid 2% Anhydrous Solution",
+    "url": "https://theordinary.com/en-fr/salicylic-acid-2-anhydrous-solution-acne-treatment-102897.html",
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "redness",
+      "pores",
+      "signs of congestion"
+    ],
+    "skin_types": [],
+    "texture": "solution",
+    "key_ingredients": [
+      "salicylic acid"
+    ],
+    "benefits": [
+      "clears skin",
+      "evens texture"
+    ],
+    "how_to_use": "Apply a small dot directly on spots for visible improvement or apply a small amount over the face for general use.",
+    "conflicts": [],
+    "warnings": [],
+    "ph": "4.5-5.5",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free",
+      "water-free"
+    ],
+    "rating": 3.4,
+    "review_count": 211,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur": 7.9
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Lactic Acid 5% + HA",
+    "url": "https://theordinary.com/en-fr/lactic-acid-5-ha-exfoliator-100083.html",
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "uneven texture",
+      "dullness"
+    ],
+    "skin_types": [],
+    "texture": "serum",
+    "key_ingredients": [
+      "lactic acid",
+      "Tasmanian pepperberry"
+    ],
+    "benefits": [
+      "smooths skin texture",
+      "brightens skin",
+      "reduces inflammation"
+    ],
+    "how_to_use": "Apply once per day, ideally in the PM. Can be diluted with other treatments to reduce strength until skin develops tolerance. Avoid contact with eyes. If irritation persists, discontinue use and consult a physician. (Sunburn Alert: This product contains an alpha hydroxy acid (AHA) that may increase your skins sensitivity to the sun and particularly the possibility of sunburn. Use a sunscreen, wear protective clothing, and limit sun exposure while using this product and for a week afterwards.)",
+    "conflicts": [
+      "do not use on sensitive, peeling or compromised skin"
+    ],
+    "warnings": [
+      "this AHA increases sun sensitivity, use sunscreen and limit sun exposure during use and for one week afterwards"
+    ],
+    "ph": "3.6-3.8",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.4,
+    "review_count": 124,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur": 9.3
+  },
+  {
+    "brand": "The Ordinary",
+    "name": "Mandelic Acid 10% + HA",
+    "url": "https://theordinary.com/en-fr/mandelic-acid-10-ha-exfoliator-100086.html",
+    "category": "serum",
+    "step": "treat",
+    "concerns": [
+      "uneven texture",
+      "dullness",
+      "uneven skin tone"
+    ],
+    "skin_types": [],
+    "texture": "serum",
+    "key_ingredients": [
+      "mandelic acid",
+      "HA"
+    ],
+    "benefits": [
+      "smooths texture",
+      "brightens skin",
+      "evens look of skin tone"
+    ],
+    "how_to_use": "Apply once per day, ideally in the PM. Can be diluted with other treatments to reduce strength until skin develops tolerance. Avoid contact with eyes. If irritation persists, discontinue use and consult a physician. (Sunburn Alert: This product contains an alpha hydroxy acid (AHA) that may increase your skins sensitivity to the sun and particularly the possibility of sunburn. Use a sunscreen, wear protective clothing, and limit sun exposure while using this product and for a week afterwards.)",
+    "conflicts": [
+      "do not use on sensitive, peeling or compromised skin"
+    ],
+    "warnings": [
+      "this AHA increases sun sensitivity, use sunscreen and limit sun exposure during use and for one week afterwards"
+    ],
+    "ph": "3.5-3.7",
+    "claims_free_from": [
+      "alcohol-free",
+      "oil-free",
+      "silicone-free",
+      "gluten-free",
+      "vegan",
+      "cruelty-free"
+    ],
+    "rating": 4.6,
+    "review_count": 213,
+    "faqs": [],
+    "size_ml": 30,
+    "price_eur": 9.0
+  }
+]
