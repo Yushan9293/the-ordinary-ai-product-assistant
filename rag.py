@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import re
 from typing import Any, Dict, List, Optional
+import unicodedata
 
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 
@@ -257,6 +258,50 @@ def fill_missing_prices_and_urls(products: List[Dict[str, Any]]) -> None:
                 p["url"] = best["url"]
 
 
+def _canon_key(s: str) -> str:
+    if not s:
+        return ""
+    s = unicodedata.normalize("NFKC", s)
+    s = s.strip().lower()
+    
+    # 去掉不可见空白（含 NBSP 等）
+    s = re.sub(r"\s+", " ", s)
+    return s
+
+def merge_products_keep_best(products: list[dict]) -> list[dict]:
+    best = {}
+    for p in products:
+        name = p.get("title") or p.get("name") or ""
+        k = _canon_key(name)
+        if not k:
+            continue
+
+        if k not in best:
+            best[k] = p
+            continue
+
+        cur = best[k]
+
+        # “字段更全”的优先：谁有值用谁
+        for field in ["url", "price", "price_display", "category", "source"]:
+            if (cur.get(field) in [None, "", "N/A"]) and (p.get(field) not in [None, "", "N/A"]):
+                cur[field] = p.get(field)
+
+        # 如果你有 score，也可以让 score 更高的优先
+        if (cur.get("score") is None) and (p.get("score") is not None):
+            cur["score"] = p["score"]
+
+        best[k] = cur
+
+    return list(best.values())
+
+def _is_complete(p: dict) -> bool:
+    has_url = bool(p.get("url"))
+    has_price = bool(p.get("price") or p.get("price_display"))
+    return has_url and has_price
+
+
+
 # -------------------------
 # Main
 # -------------------------
@@ -276,9 +321,13 @@ def answer(
 
     # 3) enrich (price/url)
     fill_missing_prices_and_urls(products)
+    products = merge_products_keep_best(products)
+    products_complete = [p for p in products if _is_complete(p)]
+    final_recos = (products_complete + products)[:3]
 
     # 4) build context -> LLM
-    ctx = _format_context(products, kb)
+    ctx = _format_context(final_recos, kb)
+
 
     messages: List[Dict[str, str]] = [{"role": "system", "content": SYSTEM}]
     if history:
@@ -291,7 +340,7 @@ def answer(
 
     # 5) structured output for API (buy/price shortcut memory)
     recommended_products: List[Dict[str, Any]] = []
-    for p in products[:3]:
+    for p in final_recos:
         name = p.get("title") or p.get("name") or ""
         recommended_products.append(
             {

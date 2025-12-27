@@ -11,6 +11,7 @@ PINECONE_INDEX = os.getenv("PINECONE_INDEX", "the-ordinary-rag")
 PINECONE_NAMESPACE = os.getenv("PINECONE_NAMESPACE", "prod_v2")
 PINECONE_HOST = os.getenv("PINECONE_HOST", "")
 
+VERSION = "2025-12-24-api-v2"
 
 OPENAI_EMBED_MODEL = os.getenv("OPENAI_EMBED_MODEL", "text-embedding-3-small")
 OPENAI_CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4o-mini")

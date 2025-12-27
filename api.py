@@ -1,18 +1,17 @@
 from __future__ import annotations
 
 from typing import Any, Dict, List, Optional
-import re
 import time
 
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from config import PINECONE_NAMESPACE
+from config import PINECONE_NAMESPACE, VERSION
 from rag import answer as rag_answer
 
-app = FastAPI(title="The Ordinary RAG API")
 
-VERSION = "2025-12-24-api-v2"
+app = FastAPI()
+
 
 # -------------------------
 # In-memory conversation + state (demo)
@@ -25,7 +24,7 @@ def _get_state(user_id: str) -> Dict[str, Any]:
     s = _STATE.get(user_id)
     if not s:
         s = {
-            "last_recommended_full": [],  # [{name,title,price,price_display,url,category,source}, ...]
+            "last_recommended_full": [],  # [{name,title,price,price_display,url,category,source,score}]
             "updated_at": time.time(),
         }
         _STATE[user_id] = s
@@ -46,74 +45,102 @@ def get_history(user_id: str, max_turns: int = 12) -> List[Dict[str, str]]:
 # -------------------------
 class QueryRequest(BaseModel):
     question: str
-    user_id: str
+    user_id: str = "test"
     category: Optional[str] = None
 
 
 # -------------------------
-# Intent helpers
+# Simple intent helpers
 # -------------------------
-_BUY_RE = re.compile(r"\b(buy|purchase|order|checkout|get it|i want it)\b", re.I)
-_PRICE_RE = re.compile(r"\b(price|how much|exactly|cost|prix|combien|多少钱|价格)\b", re.I)
-
-
 def detect_buy_intent(text: str) -> bool:
-    return bool(_BUY_RE.search(text or ""))
+    t = text.lower()
+    return any(k in t for k in ["buy", "purchase", "order", "i want to buy", "i'll take", "send me the link", "second one",
+                                "acheter", "je veux", "je voudrais", "commander",
+                                "买", "购买", "我要买", "我想买", "下单", "链接", "第二个", "第二"])
 
 
 def detect_price_followup(text: str) -> bool:
-    return bool(_PRICE_RE.search(text or ""))
+    t = text.lower()
+    return any(k in t for k in ["price", "how much", "cost", "exact price", "prix", "combien", "多少钱", "价格", "价钱"])
 
 
-def pick_product_choice(user_text: str, items: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
-    t = (user_text or "").strip().lower()
 
-    # numeric choice: "2"
-    m = re.search(r"\b([1-9])\b", t)
-    if m:
-        idx = int(m.group(1)) - 1
-        if 0 <= idx < len(items):
-            return items[idx]
+def pick_product_choice(text: str, options: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    """
+    Very small heuristic: if user says "second", pick index 1, etc.
+    Otherwise None.
+    """
+    t = text.lower().strip()
+    if not options:
+        return None
 
-    # "second one"
-    order_map = {"first": 0, "1st": 0, "second": 1, "2nd": 1, "third": 2, "3rd": 2}
-    for k, i in order_map.items():
-        if k in t and 0 <= i < len(items):
-            return items[i]
-
-    # match by name substring
-    for it in items:
-        name = (it.get("name") or it.get("title") or "").lower()
-        if name and name in t:
-            return it
+    if "first" in t or t == "1":
+        return options[0] if len(options) >= 1 else None
+    if "second" in t or t == "2":
+        return options[1] if len(options) >= 2 else None
+    if "third" in t or t == "3":
+        return options[2] if len(options) >= 3 else None
 
     return None
 
 
-def build_price_followup_answer(items: List[Dict[str, Any]]) -> str:
-    lines = ["Here are the exact prices from the knowledge base:"]
-    for i, it in enumerate(items, 1):
-        name = it.get("name") or it.get("title") or f"Item {i}"
-        price_display = it.get("price_display")
-        if not price_display:
-            lines.append(f"{i}. {name} — price not found in the knowledge base")
+def build_price_followup_answer(options: List[Dict[str, Any]]) -> str:
+    if not options:
+        return "I don't have any recently recommended products to price-check. Please ask for a recommendation first."
+    lines = []
+    for i, p in enumerate(options[:3], start=1):
+        name = p.get("title") or p.get("name") or f"Option {i}"
+        price_display = p.get("price_display") or (f"€{p.get('price'):.2f}" if isinstance(p.get("price"), (int, float)) else None)
+        if price_display:
+            lines.append(f"{i}. {name}: {price_display}")
         else:
-            lines.append(f"{i}. {name} — {price_display}")
-    return "\n".join(lines)
+            lines.append(f"{i}. {name}: price not found")
+    return "Here are the prices I have from the retrieved data:\n" + "\n".join(lines)
 
 
 # -------------------------
-# Main endpoint
+# API
 # -------------------------
 @app.post("/query")
 def query(req: QueryRequest) -> Dict[str, Any]:
     user_id = req.user_id
     question = req.question
 
+    # ✅ must initialize state/history first (used by shortcuts)
     state = _get_state(user_id)
+    history = get_history(user_id)
+    
+    # ✅ 0) CHOICE shortcut: user replies with 1/2/3 to pick from last recommendations
+    if question.strip() in {"1", "2", "3"} and state.get("last_recommended_full"):
+        idx = int(question.strip()) - 1
+        options = state["last_recommended_full"]
+        if 0 <= idx < len(options):
+            chosen = options[idx]
+            name = chosen.get("name") or chosen.get("title") or "this product"
+            url = chosen.get("url")
+            price = chosen.get("price_display") or (f"€{chosen.get('price'):.2f}" if isinstance(chosen.get("price"), (int, float)) else None)
+            price_text = price or "price not found"
+
+            if url:
+                answer_text = f"URL: {url}\nPrice: {price_text}"
+            else:
+                answer_text = f"I found **{name}**, but the official URL is not available in the catalog."
+
+            save_message(user_id, "user", question)
+            save_message(user_id, "assistant", answer_text)
+            return {
+                "answer": answer_text,
+                "purchase": {"name": name, "url": url, "price": chosen.get("price"), "price_display": chosen.get("price_display")},
+                "recommended_products": state["last_recommended_full"],
+                "retrieved_total": 0,
+                "retrieved_products": 0,
+                "namespace": PINECONE_NAMESPACE,
+                "version": VERSION,
+            }
+
 
     # ✅ 1) PRICE FOLLOW-UP shortcut (MUST be before buy + before calling RAG)
-    if detect_price_followup(question) and state.get("last_recommended_full"):
+    if detect_price_followup(question) and state.get("last_recommended_full") and not detect_buy_intent(question):
         answer_text = build_price_followup_answer(state["last_recommended_full"])
 
         save_message(user_id, "user", question)
@@ -132,25 +159,25 @@ def query(req: QueryRequest) -> Dict[str, Any]:
     if detect_buy_intent(question) and state.get("last_recommended_full"):
         chosen = pick_product_choice(question, state["last_recommended_full"])
 
-        # clear choice
         if chosen:
             url = chosen.get("url")
             name = chosen.get("name") or chosen.get("title") or "this product"
 
+            price = chosen.get("price_display") or (f"€{chosen.get('price'):.2f}" if isinstance(chosen.get("price"), (int, float)) else None)
+            price_text = price or "price not found"
+
             if url:
-                answer_text = (
-                    f"Perfect! Here is the official link to buy **{name}**:\n{url}\n\n"
-                    "You can click the link to complete your purchase."
-                )
+                answer_text = f"URL: {url}\nPrice: {price_text}"
             else:
-                answer_text = f"I found **{name}**, but the URL is not found in the knowledge base."
+                answer_text = f"I found **{name}**, but the official URL is not available in the catalog."
+
 
             save_message(user_id, "user", question)
             save_message(user_id, "assistant", answer_text)
 
             return {
                 "answer": answer_text,
-                "purchase": {"name": name, "url": url},
+                "purchase": {"name": name, "url": url, "price": chosen.get("price"), "price_display": chosen.get("price_display")},
                 "recommended_products": state["last_recommended_full"],
                 "retrieved_total": 0,
                 "retrieved_products": 0,
@@ -165,7 +192,8 @@ def query(req: QueryRequest) -> Dict[str, Any]:
         ]
         answer_text = (
             "Sure — which one would you like to buy?\n"
-            "Please reply with 1, 2, or 3 (or type the product name)."
+            "Please reply with 1, 2, or 3 (or type the product name).\n\n"
+            f"Options: {options}"
         )
 
         save_message(user_id, "user", question)
@@ -173,27 +201,31 @@ def query(req: QueryRequest) -> Dict[str, Any]:
 
         return {
             "answer": answer_text,
-            "options": options,
+            "recommended_products": state["last_recommended_full"],
             "retrieved_total": 0,
             "retrieved_products": 0,
             "namespace": PINECONE_NAMESPACE,
             "version": VERSION,
         }
 
-    # 3) Normal RAG flow
-    history = get_history(user_id)
-    result = rag_answer(question=question, category=req.category, history=history)
+    # 3) normal: call RAG
+    result = rag_answer(question, category=req.category, history=history)
 
-    save_message(user_id, "user", question)
-    save_message(user_id, "assistant", str(result.get("answer", "")))
+    answer_text = str(result.get("answer", "")) if isinstance(result, dict) else str(result)
+    final_recos = result.get("recommended_products", []) if isinstance(result, dict) else []
 
     # ✅ store last recommended for price/buy shortcuts
-    if isinstance(result, dict) and isinstance(result.get("recommended_products"), list):
-        state["last_recommended_full"] = result["recommended_products"][:3]
-        state["updated_at"] = time.time()
+    state["last_recommended_full"] = final_recos
+    state["updated_at"] = time.time()
 
-    if isinstance(result, dict):
-        result["version"] = VERSION
-        return result
+    save_message(user_id, "user", question)
+    save_message(user_id, "assistant", answer_text)
 
-    return {"answer": str(result), "version": VERSION}
+    return {
+        "answer": answer_text,
+        "recommended_products": final_recos,
+        "retrieved_total": result.get("retrieved_total", 0) if isinstance(result, dict) else 0,
+        "retrieved_products": result.get("retrieved_products", 0) if isinstance(result, dict) else 0,
+        "namespace": result.get("namespace", PINECONE_NAMESPACE) if isinstance(result, dict) else PINECONE_NAMESPACE,
+        "version": result.get("version", VERSION) if isinstance(result, dict) else VERSION,
+    }
